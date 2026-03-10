@@ -1,0 +1,66 @@
+{
+  "info": {
+    "name": "Reliance Industries Limited",
+    "ticker": "RELIANCE",
+    "bseCode": "500325",
+    "nseSymbol": "RELIANCE",
+    "sector": "Oil & Gas",
+    "industry": "Conglomerate",
+    "marketCap": 1620000,
+    "pe": 28.5,
+    "eps": 86.2,
+    "dividendYield": 0.32,
+    "high52W": 2856.15,
+    "low52W": 2180.50,
+    "ltp": 2456.75,
+    "prevClose": 2432.10,
+    "open": 2440.00,
+    "dayHigh": 2468.30,
+    "dayLow": 2425.50,
+    "volume": 8945623,
+    "avgVolume20D": 7523456
+  },
+  "aiInsight": "Momentum breakout above 200 DMA with rising institutional FII flows. RSI at 62 suggests room for upside before overbought territory.",
+  "patterns": [
+    {
+      "name": "Golden Cross",
+      "type": "bullish",
+      "date": "2026-02-15",
+      "confidence": 85,
+      "description": "SMA 50 crossed above SMA 200, signaling long-term bullish trend reversal"
+    },
+    {
+      "name": "Bull Flag",
+      "type": "bullish",
+      "date": "2026-03-01",
+      "confidence": 72,
+      "description": "Consolidation after strong upward move, breakout expected"
+    },
+    {
+      "name": "Double Bottom",
+      "type": "bullish",
+      "date": "2026-01-10",
+      "confidence": 78,
+      "description": "W-pattern formation at ₹2,200 support level with increasing volume"
+    }
+  ],
+  "supportResistance": [
+    { "level": 2200, "type": "support", "strength": "strong" },
+    { "level": 2350, "type": "support", "strength": "moderate" },
+    { "level": 2550, "type": "resistance", "strength": "moderate" },
+    { "level": 2856, "type": "resistance", "strength": "strong" }
+  ],
+  "fibonacci": {
+    "swingHigh": 2856.15,
+    "swingLow": 2180.50,
+    "levels": {
+      "0": 2856.15,
+      "23.6": 2696.68,
+      "38.2": 2598.07,
+      "50": 2518.33,
+      "61.8": 2438.58,
+      "78.6": 2325.11,
+      "100": 2180.50
+    }
+  }
+}
