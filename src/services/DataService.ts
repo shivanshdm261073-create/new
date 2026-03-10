@@ -3,7 +3,7 @@ import type { StockData, StockInfo } from '../types/stock.types';
 import { generatePriceHistory, generateTechnicals } from '../utils/generateMockData';
 
 const axiosInstance = axios.create({
-  baseURL: '/',
+  baseURL: import.meta.env.BASE_URL,
   timeout: 10000,
 });
 
