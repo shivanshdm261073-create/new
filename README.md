@@ -2,6 +2,8 @@
 
 A professional stock market research and technical analysis dashboard for Indian equities (BSE/NSE), built with React, TypeScript, and Vite.
 
+**Live site:** [https://shivanshdm261073-create.github.io/new/](https://shivanshdm261073-create.github.io/new/)
+
 ![Dashboard Screenshot](https://github.com/user-attachments/assets/0669c7c1-c107-4f05-bced-f97e500de4f9)
 
 ## Prerequisites
@@ -142,3 +144,13 @@ Use the sticky navigation bar to jump between sections:
 ## License
 
 This project is for educational and research purposes.
+
+## Deployment
+
+This site is automatically deployed to GitHub Pages on every push to `main`. The workflow is defined in `.github/workflows/deploy.yml`.
+
+To enable deployment on your own fork:
+
+1. Go to **Settings → Pages** in your GitHub repository
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**
+3. Push to `main` — the workflow will build and deploy the site automatically
