@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 const NAV_TABS = [
   { id: 'overview', label: 'Overview', active: true },
   { id: 'technicals', label: 'Technicals', active: true },
+  { id: 'hotels', label: '🏖 Hotels', active: true },
   { id: 'fundamentals', label: 'Fundamentals', active: false },
   { id: 'valuation', label: 'Valuation', active: false },
   { id: 'macro', label: 'Macro', active: false },

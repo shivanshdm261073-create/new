@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { StickyNav } from './components/layout/StickyNav';
 import { HeroStrip } from './components/hero/HeroStrip';
 import { TechnicalsDashboard } from './components/charts/TechnicalsDashboard';
+import { HotelSearchPage } from './components/hotels/HotelSearchPage';
 import { useStockData } from './hooks/useStockData';
 import { useStockStore } from './store/stockStore';
 
@@ -65,6 +66,7 @@ function App() {
         >
           <HeroStrip />
           <TechnicalsDashboard />
+          <HotelSearchPage />
         </motion.main>
       </AnimatePresence>
     </div>
